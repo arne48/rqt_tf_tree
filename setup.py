@@ -31,6 +31,7 @@ setup(
         'rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.'
     ),
     license='BSD',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'rqt_tf_tree = ' + package_name + '.main:main'
